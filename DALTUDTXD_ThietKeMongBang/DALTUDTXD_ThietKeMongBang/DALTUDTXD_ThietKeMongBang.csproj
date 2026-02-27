@@ -134,16 +134,22 @@
     <Resource Include="Images\user.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\floodedhouse.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Home.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\homeflood.ico" />
+    <Resource Include="Images\Information.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Information.png" />
+    <Resource Include="Images\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\math.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\abacus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\floodedhouse.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

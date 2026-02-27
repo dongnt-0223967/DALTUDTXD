@@ -46,10 +46,10 @@
                                 Height="35"
                                 Margin="15,25,0,40">
 
-                        <Image Source="/Images/engineering.png" Height="50"/>
+                        <Image Source="/Images/engineering.png" Height="40"/>
                         <TextBlock Text="S.F CAL"
                                    Foreground="White"
-                                   FontSize="30"
+                                   FontSize="26"
                                    FontFamily="Montserrat"
                                    FontWeight="Medium"
                                    VerticalAlignment="Center"
@@ -89,6 +89,35 @@
                         </StackPanel>
                     </RadioButton>
 
+                    <RadioButton Style="{StaticResource menuButton}"
+                                 Tag="red"
+                                 IsChecked="True"
+                                 Command="{Binding ShowCal3ViewCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Images/download.png" Width="30" Height="50" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            <TextBlock Text="Tải trọng" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </RadioButton>
+                    
+                    <RadioButton Style="{StaticResource menuButton}"
+                                 Tag="red"
+                                 IsChecked="True"
+                                 Command="{Binding ShowCal4ViewCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Images/math.png" Width="30" Height="50" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            <TextBlock Text="Tính toán móng" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </RadioButton>
+
+                    <RadioButton Style="{StaticResource menuButton}"
+                                 Tag="red"
+                                 IsChecked="True"
+                                 Command="{Binding ShowCal5ViewCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Images/abacus.png" Width="30" Height="50" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            <TextBlock Text="Báo cáo kết quả" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </RadioButton>
                 </StackPanel>
 
             </Border>
