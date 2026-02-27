@@ -30,16 +30,68 @@
             </Grid.ColumnDefinitions>
 
             <!--Navigation Menu-->
-                <Border CornerRadius="10,0,0,10"
+            <Border CornerRadius="10,0,0,10"
                         Grid.Column="0">
-                    <Border.Background>
-                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0.7">
-                        <GradientStop Color="LightSkyBlue" Offset="0"/>
-                        <GradientStop Color="SkyBlue" Offset="1"/>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0.7">
+                        <GradientStop Color="#2D2D30" Offset="0"/>
+                        <GradientStop Color="LightSkyBlue" Offset="1"/>
                     </LinearGradientBrush>
-                    </Border.Background>
+                </Border.Background>
 
-                </Border>
+                <StackPanel>
+
+                    <!--Logo-->
+                    <StackPanel Orientation="Horizontal"
+                                Height="35"
+                                Margin="15,25,0,40">
+
+                        <Image Source="/Images/engineering.png" Height="50"/>
+                        <TextBlock Text="S.F CAL"
+                                   Foreground="White"
+                                   FontSize="30"
+                                   FontFamily="Montserrat"
+                                   FontWeight="Medium"
+                                   VerticalAlignment="Center"
+                                   Margin="10,0,0,0"/>
+
+                    </StackPanel>
+
+                    <!--Menu Buttons-->
+                    <RadioButton Style="{StaticResource menuButton}"
+                                 Tag="Red"
+                                 IsChecked="True"
+                                 Command="{Binding ShowHomeViewCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Images/Home.ico" Width="30" Height="40" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            <TextBlock Text="Trang chủ" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        </StackPanel>
+                        
+                    </RadioButton>
+
+                    <RadioButton Style="{StaticResource menuButton}"
+                                 Tag="red"
+                                 IsChecked="True"
+                                 Command="{Binding ShowCal1ViewCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Images/floodedhouse.png" Width="30" Height="50" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            <TextBlock Text="Số liệu nền đất" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </RadioButton>
+
+                    <RadioButton Style="{StaticResource menuButton}"
+                                 Tag="red"
+                                 IsChecked="True"
+                                 Command="{Binding ShowCal2ViewCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Images/Information.png" Width="30" Height="50" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            <TextBlock Text="Thông số móng cơ bản" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </RadioButton>
+
+                </StackPanel>
+
+            </Border>
 
         </Grid>
 
