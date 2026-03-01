@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:DALTUDTXD_ThietKeMongBang"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/UIColors.xaml"/>
+                <ResourceDictionary Source="/Styles/ButtonStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Ensure that HomeViewModel and other ViewModels exist in the specified namespace -->
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
