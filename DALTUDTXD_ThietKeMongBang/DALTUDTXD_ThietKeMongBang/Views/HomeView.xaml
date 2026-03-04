@@ -6,7 +6,25 @@
              xmlns:local="clr-namespace:DALTUDTXD_ThietKeMongBang.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+    <Border CornerRadius="20">
+        <Border.Background>
+            <SolidColorBrush Color="#3A3A3A"/>
+        </Border.Background>
+        <Border CornerRadius="15" BorderThickness="1" Opacity="1">
+            <Border.BorderBrush>
+                <SolidColorBrush Color="#FFFFFF"/>
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#3A3A3A" Offset="0"/>
+                    <GradientStop Color="LightSkyBlue" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                
+            </Grid>
+        </Border>
+    </Border>
 </UserControl>
