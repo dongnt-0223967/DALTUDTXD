@@ -23,7 +23,15 @@
             </Border.Background>
 
             <Grid>
-                
+                <StackPanel Width="500" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Source="/Images/logo.png" Width="160" Height="160" VerticalAlignment="Center"/>
+                    <TextBlock Text="Phần mềm hỗ trợ tính toán và thiết kế móng băng theo tiêu chuẩn Việt Nam. Cho phép người dùng nhập tải trọng, cấu kiện, và thông số đất nền để nhanh chóng xác định kích thước móng, cốt thép chịu lực và kiểm tra điều kiện làm việc. Giao diện trực quan, dễ sử dụng, thích hợp cho kỹ sư xây dựng trong công tác thiết kế nền móng công trình." Foreground="White" 
+                               FontSize="16" 
+                               FontFamily="Times New Roman" 
+                               TextAlignment="Center"
+                               TextWrapping="Wrap"
+                               Margin="0,10,0,0" Height="100" Width="500"/>
+                </StackPanel>
             </Grid>
         </Border>
     </Border>
