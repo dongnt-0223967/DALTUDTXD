@@ -10,28 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace DALTUDTXD_ThietKeMongBang.Views
 {
     /// <summary>
-    /// Interaction logic for MainView.xaml
+    /// Interaction logic for Taitrong.xaml
     /// </summary>
-    public partial class MainView : Window
+    public partial class Taitrong : UserControl
     {
-        public MainView()
+        public Taitrong()
         {
             InitializeComponent();
-        }
-
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

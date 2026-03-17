@@ -62,7 +62,7 @@
                                  Tag="Red"
                                  IsChecked="True"
                                  GroupName="MainMenu"
-                                 Command="{Binding ShowHomeViewCommand}">
+                                 Command="{Binding ShowHomeViewCommand}" Checked="RadioButton_Checked_1">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="/Images/Home.ico" Width="30" Height="40" VerticalAlignment="Center" Margin="10,0,0,0"/>
                             <TextBlock Text="Trang chủ" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
@@ -73,10 +73,10 @@
                     <RadioButton Style="{StaticResource menuButton}"
                                  Tag="Red"
                                  GroupName="MainMenu"
-                                 Command="{Binding ShowCal1ViewCommand}">
+                                 Command="{Binding ShowCal1ViewCommand}" Checked="RadioButton_Checked">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="/Images/floodedhouse.png" Width="30" Height="50" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                            <TextBlock Text="Số liệu nền đất" Foreground="White" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            <TextBlock Text="Số liệu nền đất" Foreground="White" FontSize="16" Height="32"/>
                         </StackPanel>
                     </RadioButton>
 
@@ -195,6 +195,7 @@
                                     Grid.Row="2"
                                     Margin="25"
                                     BorderThickness="20"/>
+                    
                 </Grid>
 
             </Border>

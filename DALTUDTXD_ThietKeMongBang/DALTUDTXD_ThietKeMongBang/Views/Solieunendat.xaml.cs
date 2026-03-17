@@ -10,26 +10,22 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace DALTUDTXD_ThietKeMongBang.Views
 {
     /// <summary>
-    /// Interaction logic for MainView.xaml
+    /// Interaction logic for Nendat.xaml
     /// </summary>
-    public partial class MainView : Window
+    public partial class Nendat : UserControl
     {
-        public MainView()
+        public Nendat()
         {
             InitializeComponent();
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
