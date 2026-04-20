@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DALTUDTXD_ThietKeMongBang.Views"
         mc:Ignorable="d"
         Title="ThongnvWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Red">
         
     </Grid>
 </Window>
